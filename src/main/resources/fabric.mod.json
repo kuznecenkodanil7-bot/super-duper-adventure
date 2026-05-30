@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "lavomerka",
+  "version": "${version}",
+  "name": "Lavomerka Player Replacer",
+  "description": "Client-side menu that replaces all rendered players with a lavomerka model.",
+  "authors": ["ChatGPT"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.example.lavomerka.LavomerkaClient"
+    ]
+  },
+  "mixins": [
+    "lavomerka.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

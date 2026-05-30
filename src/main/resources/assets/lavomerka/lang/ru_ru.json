@@ -1,0 +1,8 @@
+{
+  "key.categories.lavomerka": "Лавомерка",
+  "key.lavomerka.open_menu": "Открыть меню лавомерки",
+  "screen.lavomerka.title": "Лавомерка",
+  "screen.lavomerka.enabled": "Замена игроков: ВКЛ",
+  "screen.lavomerka.disabled": "Замена игроков: ВЫКЛ",
+  "screen.lavomerka.note": "Работает только на клиенте. Сервер не меняется."
+}
